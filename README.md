@@ -11,13 +11,3 @@ Backend: Python, Flask
 NLP: SpaCy
 Text-to-Speech: Google Text-to-Speech (gTTS)
 Frontend: HTML (via Flask templates)
-File Structure
-c
-text-summarizer/
-├── app.py                 # Flask application
-├── text_summary.py        # NLP-based summarizer function
-├── templates/
-│   ├── index.html         # Home page
-│   ├── summary.html       # Summary page
-├── static/
-│   ├── summary.mp3        # Audio file (generated at runtime)
